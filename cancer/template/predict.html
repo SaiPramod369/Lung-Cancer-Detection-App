@@ -1,0 +1,37 @@
+{% extends 'home.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="container back">
+  <div class="row">
+    <div class=" col-md-3 offset-md-1 ele">
+      <img id="blah" src="{% static 'images/upload.png'%}" alt="image" width="200px" height="200px"
+        style="border-radius:10px;">
+
+    </div>
+
+
+
+    <div class=" col-md-3 offset-md-4  ele">
+      <form action="predict" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="img" class="bb"><a> <i class="fas fa-upload" style="color:#48c6bc"></i> &nbsp; Upload CT Image</a>
+        </label>
+        <input type="file" id="img" name="img" accept="image/*"
+          onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+
+        <label class="bb" for="pp"><i class="fas fa-search" style="color:#48c6bc"> </i> &nbsp;Predict Type </label>
+        <input type="submit" id="pp">
+
+
+
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
