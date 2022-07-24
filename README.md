@@ -25,3 +25,11 @@ The website is useful to predict Lung Cancer Cell type.By uploading CT images of
 
 
 ## Snapshots
+
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(593).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(597).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(594).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(595).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(596).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(598).png)
+![Alt text](https://github.com/SaiPramod369/Lung-Cancer-Detection-App/blob/main/cancer/snapshots/Screenshot%20(599).png)
